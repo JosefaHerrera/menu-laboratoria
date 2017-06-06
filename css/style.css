@@ -1,25 +1,29 @@
 body{
-	padding:0;
-	margin: 0;
-	/*oculta todo lo que sobra de los margenes (truco)*/
-	overflow-x: hidden;	
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.lista{
+    list-style:none;
+    border-right: solid 1px black;
+    padding: 15px;
+}
+nav ul{
+    height: 51px;
+    margin-top: 0px;
 }
 #navbar{
-	background-color: pink;
+    background-color: #db7878 ;
+    
 }
-
-.ul {
-	flex-direction: row;
-}
-
-nav ul li a {
-	color:white;
-	text-decoration: none;
-	cursor:pointer;
+a:hover{
+	color:#E8048A ;
 
 }
-
-nav ul li{
-	list-style: none;
-}
-
