@@ -1,4 +1,12 @@
-var hamburguesa = document.getElementById("hamburguesa");
+hamburguesa.addEventListener("click",function(){
+	document.getElementById("general2").classList.remove("general");
+
+})
+
+
+
+
+/*var hamburguesa = document.getElementById("hamburguesa");
 
 
 hamburguesa.addEventListener("click",function(){
@@ -38,23 +46,23 @@ hamburguesa.addEventListener("click",function(){
 	var costumers = document.createTextNode("Costumers");
 	var contact = document.createTextNode("Contact");
 
-	/*HOME*/
+
 	parrafo.appendChild(home);
 	menu1.appendChild(parrafo);
 	lista2.appendChild(menu1);
-	/*ABOUT*/
+
 	parrafo2.appendChild(about);
 	menu2.appendChild(parrafo2);
 	lista2.appendChild(menu2);
-	/*SERVICES*/
+
 	parrafo3.appendChild(services);
 	menu3.appendChild(parrafo3);
 	lista2.appendChild(menu3);
-	/*COSTUMERS*/
+
 	parrafo4.appendChild(costumers);
 	menu4.appendChild(parrafo4);
 	lista2.appendChild(menu4);
-	/*CONTACT*/
+	
 	parrafo5.appendChild(contact);
 	menu5.appendChild(parrafo5);
 	lista2.appendChild(menu5);
@@ -65,4 +73,4 @@ hamburguesa.addEventListener("click",function(){
 
 
 });
-
+*/
