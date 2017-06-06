@@ -4,6 +4,8 @@ body{
     overflow-x:hidden;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+/*NAV 1 */
 nav ul li a{
     text-decoration: none;
     color:white;
@@ -31,6 +33,8 @@ li:hover{
 }
 
 
+/*NAV 2 */
+
 
 #navbar2{
 	background-color: #302d2d;
@@ -40,21 +44,17 @@ li:hover{
 	color:white;
 	font-size: 30px;
 	cursor: pointer;
-
 }
 
 .menu.flex-container{
 	padding-left: 20px;
 }
 
-
-
 .general{
 	background-color: #302d2d;
 		display: none;
 	
 }
-
 .texto{
 	color:white;
 	padding-left: 19px;
