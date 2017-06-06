@@ -31,3 +31,45 @@ li:hover{
 	background-color:#E8048A ;
 
 }
+
+
+
+#navbar2{
+	background-color: #302d2d;
+}
+
+#navbar2 i{
+	color:white;
+	font-size: 30px;
+	cursor: pointer;
+
+}
+
+.menu.flex-container{
+	padding-left: 20px;
+}
+
+
+
+.general{
+	background-color: #302d2d;
+	border-bottom: 1px solid black;
+}
+
+.texto{
+	color:white;
+	padding-left: 19px;
+	height: 25px;
+	margin-top: 12px;	
+	cursor: pointer;
+
+}
+
+.texto:hover{
+	color:pink;
+	text-decoration: underline;
+}
+
+.oculto{
+	display: none;
+}
